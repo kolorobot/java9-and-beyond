@@ -1,4 +1,4 @@
-package pl.codeleak.samples.java14;
+package pl.codeleak.samples.java14.records;
 
 import org.junit.jupiter.api.Test;
 import pl.codeleak.samples.java14.records.Owner;
@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class Java14RecordTests {
 
     @Test
-    void recordGetters() {
+    void recordAccessors() {
 
         var owner = new Owner("John Doe", "110 W. Liberty St.", "Madison", "6085551023");
 
@@ -37,7 +37,6 @@ class Java14RecordTests {
     @Test
     void recordToString() {
         var pet = new PetType("dog");
-
         assertThat(pet.toString()).isEqualTo("PetType[name=dog]");
     }
 }
