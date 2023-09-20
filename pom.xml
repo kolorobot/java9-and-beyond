@@ -17,17 +17,18 @@
         <module>java12</module>
         <module>java13</module>
         <module>java14</module>
+        <module>java21</module>
     </modules>
 
     <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
-        <junit.jupiter.version>5.4.2</junit.jupiter.version>
-        <org.assertj.version>3.12.2</org.assertj.version>
-        <ch.qos.logback.version>1.2.3</ch.qos.logback.version>
+        <junit.jupiter.version>5.9.2</junit.jupiter.version>
+        <org.assertj.version>3.24.2</org.assertj.version>
+        <ch.qos.logback.version>1.4.7</ch.qos.logback.version>
     </properties>
 
     <dependencies>
@@ -57,7 +58,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <release>14</release>
+                    <release>21</release>
                     <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>

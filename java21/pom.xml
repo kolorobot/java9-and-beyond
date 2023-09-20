@@ -10,11 +10,11 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>java12</artifactId>
+    <artifactId>java21</artifactId>
 
     <properties>
-        <maven.compiler.source>12</maven.compiler.source>
-        <maven.compiler.target>12</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
 </project>
