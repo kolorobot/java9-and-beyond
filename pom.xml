@@ -28,7 +28,7 @@
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
         <junit.jupiter.version>5.9.2</junit.jupiter.version>
         <org.assertj.version>3.24.2</org.assertj.version>
-        <ch.qos.logback.version>1.4.7</ch.qos.logback.version>
+        <ch.qos.logback.version>1.4.12</ch.qos.logback.version>
     </properties>
 
     <dependencies>
